@@ -1,0 +1,105 @@
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+* {
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-bottom: 1rem;
+    font-family: 'Chelsea Market', cursive;
+
+}
+
+p {
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+body {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+/* nav bar */
+nav a {
+    display: inline-block;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    width: 10%;
+    padding: 1%;
+    color: white;
+    background: #5ED3EB;
+    margin: 0.5% 10%;
+}
+
+nav a:first-child {
+    background: #FF764E;
+    padding: 0.4% 1%;
+}
+nav a:last-child {
+    background: #FFCD69;
+}
+
+/*main*/
+main {
+    padding: 1rem 0;
+}
+
+.main_text {
+    display: inline-block;
+    vertical-align: top;
+    width: 60%;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem auto;
+}
+
+.main_img {
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+main img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+/* tanitim */
+.tanitim {
+    text-align: center;
+    background: #DDB9A3;
+    color: white;
+}
+
+.aktiviteler {
+    padding: 1rem 0;
+    width: 20%;
+    text-align: center;
+}
+.aktiviteler img {
+    width: 25%;
+    margin-top: 2rem;
+}
+.aktiviteler img:first-child {
+    margin-top: 0;
+}
+
+footer div {
+    background-image: url("./assets/footer_img.jpg") ;
+    height: 15rem;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+footer nav {
+    background: #F9E7DC;
+}
+
+
+
+
+
